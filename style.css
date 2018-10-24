@@ -1,9 +1,38 @@
 body {
-  background-color: azure;
+  background-color: #797B84;
+}
+
+.profile {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .img {
   transform: rotate(90deg);
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 20px;
+  color: white;
+  font-family: titillium web;
+  font-style: bold;
+  font-size: 30px;
+}
+
+p {
+  align-items: flex-end;
+  font-family: titillium web;
+  color: white;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
